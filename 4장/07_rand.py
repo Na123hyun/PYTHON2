@@ -42,7 +42,9 @@ else :
     print("보")
 
 #승자를 판단하여 출력
-if player1 == 0 :
-    print("player1 승리")
-else : 
-    print("player2 승리")
+if (num1 == 0 and num2 == 2) or (num1 == 1 and num2 == 0) or (num1 == 2 and num2 == 1) :
+    print(f"{player1}님 승리")
+elif num1 == num2 :
+    print("무승부입니다.")
+else:
+    print(f"{player2}님 승리")
