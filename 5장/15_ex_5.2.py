@@ -12,6 +12,7 @@
 #사용자에게 두 수를 입력 받는다.
 num1 = int(input("숫자를 입력하시오. : "))
 num2 = int(input("숫자를 입력하시오. : "))
+
 #합계를 0으로 초기화한다.
 sum1 = 0
 sum2 = 0
@@ -22,9 +23,13 @@ if num1 > num2:
 
 #입력 받은 두 수 사이의 짝수의 합계를 출력한다.
 for i in range(num1, num2 + 1) :
+
+    #sum1과 i를 더한다.
     sum1 += i
+
     if i % 2 == 0 :
-        #sum과 i를 더한다.
+        
+        #sum2와 i를 더한다.
         sum2 += i
 print(f"{num1}과 {num2} 사이의 정수의 합은 {sum1}입니다.")
 print(f"{num1}과 {num2} 사이의 짝수의 합은 {sum2}입니다.")

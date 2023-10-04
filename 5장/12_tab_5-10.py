@@ -21,13 +21,18 @@ answer = 'yes'
 #사용자의 대답이 긍정인 동안 반복한다.
 #yes가 아니면 종료
 while answer == 'yes' :
+
     #사용자에게 숫자를 입력 받는다.
     num = int(input("숫자를 입력하시오. : "))
+
     #입력 받은 숫자를 sum에 더한다.
     sum += num
+
     #사용자에게 계속할 것인지 묻는다.
     answer = input("계속할 것입니까?(yes/no) : ")
+
     #if answer == 'no' :
         #break
+        
 #합계를 출력한다.
 print("합계는 : ", sum)

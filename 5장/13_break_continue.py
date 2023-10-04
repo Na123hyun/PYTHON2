@@ -24,7 +24,7 @@ for i in word :
         break
     
     #포함되지 않은 단어라면 else
-    # 결과 pr
+    #결과 pr
     else :
         print(i, end ='')
 
@@ -42,7 +42,7 @@ for i in word :
         break
     
     #포함되지 않은 단어라면 else
-    # 결과 pr
+    #결과 pr
     else :
         print(i, end ='')
 
